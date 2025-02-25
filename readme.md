@@ -146,7 +146,7 @@ npm install
 Start the frontend development server:
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
 
 The frontend should now be accessible at [http://localhost:5173](http://localhost:5173).
@@ -160,7 +160,7 @@ The backend project uses Drizzle ORM for database schema management and migratio
 This script generates database migrations based on your schema definitions using drizzle-kit.
 
 ```bash
-pnpm run generate # or yarn generate or npm run generate
+pnpm generate # or yarn generate or npm run generate
 ```
 
 ### Apply Migrations
@@ -168,7 +168,7 @@ pnpm run generate # or yarn generate or npm run generate
 This script applies the generated migrations to the database.
 
 ```bash
-pnpm run migrate # or yarn migrate or npm run migrate
+pnpm migrate # or yarn migrate or npm run migrate
 ```
 
 ### Seed Database
@@ -176,7 +176,7 @@ pnpm run migrate # or yarn migrate or npm run migrate
 This script seeds the database with initial data.
 
 ```bash
-pnpm run seed # or yarn seed or npm run seed
+pnpm seed # or yarn seed or npm run seed
 ```
 
 ### 4. Drizzle Studio
@@ -184,7 +184,7 @@ pnpm run seed # or yarn seed or npm run seed
 Drizzle Studio is a visual database tool that allows you to explore and modify your database schema. It provides a user-friendly interface for managing your database schema, including creating tables, columns, and relationships.
 
 ```bash
-pnpm run studio # or yarn studio or npm run studio
+pnpm studio # or yarn studio or npm run studio
 ```
 
 ## Swagger Documentation
