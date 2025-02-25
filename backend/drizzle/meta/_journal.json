@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1740261469430,
+      "tag": "0000_smooth_solo",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1740340055765,
+      "tag": "0001_warm_firedrake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1740341379493,
+      "tag": "0002_lush_spirit",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1740394335160,
+      "tag": "0003_stiff_electro",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1740396383400,
+      "tag": "0004_little_starjammers",
+      "breakpoints": true
+    }
+  ]
+}
