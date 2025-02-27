@@ -193,6 +193,13 @@ Swagger is a documentation generation tool that allows you to document your API 
 
 The swagger endpoint is available at [http://localhost:3300/api/docs](http://localhost:3300/api/docs).
 
+## Login Credentials
+
+To login to the admin panel, use the following credentials:
+
+- Email: `vendor@markoub.ma / admin@markoub.ma`
+- Password: `P@ssw0rd`
+
 ## Sceenshots
 
 #### Home Page

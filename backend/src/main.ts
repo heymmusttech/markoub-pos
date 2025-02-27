@@ -43,11 +43,12 @@ async function bootstrap() {
     .setDescription('Use the base API URL as http://localhost:3300/')
     .setTermsOfService('http://localhost:3300/terms')
     .setLicense('MIT License', 'https://opensource.org/licenses/MIT')
-    .addServer('http://localhost:3300')
+    .addServer(process.env.SWAGGER_SERVER || 'http://localhost:3300')
     .setVersion('1.0')
     .build();
+
   const document = SwaggerModule.createDocument(app, swaggerConfig);
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('api-docs', app, document);
 
   /**
    * Start the server

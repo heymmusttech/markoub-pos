@@ -34,13 +34,13 @@ async function seed() {
       {
         name: 'Vendor User',
         email: 'vendor@markoub.ma',
-        password: '$2b$10$b.pJFZBky4PwXfzWFPNeo.UR0rW50ea3eD0G9T4P2BBSwqYTD/JGG',
+        password: '$2b$10$b.pJFZBky4PwXfzWFPNeo.UR0rW50ea3eD0G9T4P2BBSwqYTD/JGG', // Password is 'P@ssw0rd'
         role: 'vendor',
       },
       {
         name: 'Admin User',
         email: 'admin@markoub.ma',
-        password: '$2b$10$b.pJFZBky4PwXfzWFPNeo.UR0rW50ea3eD0G9T4P2BBSwqYTD/JGG',
+        password: '$2b$10$b.pJFZBky4PwXfzWFPNeo.UR0rW50ea3eD0G9T4P2BBSwqYTD/JGG', // Password is 'P@ssw0rd'
         role: 'admin',
       },
     ]);
